@@ -6,26 +6,32 @@ html(lang="ru")
         include ../blocks/header/header.jade
 
         main
-          .container.bg-gray
-            
-            include ../blocks/tab/tabSignUp.jade
-            include ../blocks/tab/tabOnlineMonitor.jade
+          section.container.bg-gray.pt-5.pb-4.px-0
+            .row.mx-0.align-items-start
+              .col-lg-8.pr-0.pl-5
+                .row.justify-content-between.mx-0
+                  h1.title.mb-4 ParrotWings Exchange
+                  input.input.input_search.input_small(type='search' placeholder='Search...')
                 
-            
-            input.input.input_search.input_small(type='search' placeholder='Search...')
-            .row.row_products
-              +product('product1','2 props', 'Unlimited exchange')
-              +product('product2','1 prop', 'International exchange')
-              +product('product3','3 props all', 'Additional services')
-              +product('product4','5 props', 'Support')
-              +product('product5','2 props', 'Holiday works')
-              +product('product6','not in access', 'Postal delivery')
-              +product('product7','2 props', 'Document managment ')
-              +product('product8','1 prop', 'Promotions')
-            
-            .text-center
-              a.link.link_gray(href="#") More products...
+                h2.title_subtitle Products
+                
+                .row.row_products
+                  +product('product1','2 props', 'Unlimited exchange')
+                  +product('product2','1 prop', 'International exchange')
+                  +product('product3','3 props all', 'Additional services')
+                  +product('product4','5 props', 'Support')
+                  +product('product5','2 props', 'Holiday works')
+                  +product('product6','not in access', 'Postal delivery')
+                  +product('product7','2 props', 'Document managment ')
+                  +product('product8','1 prop', 'Promotions')
+                
+                .text-center
+                  a.link.link_gray(href="#") More products...
+              .col-lg-4.pl-4
+                include ../blocks/tab/tabSignUp.jade
+                include ../blocks/tab/tabOnlineMonitor.jade
+                  
           
         include ../blocks/footer/footer.jade
       
-        //Расставить по местам все элементы
+        //Адаптив
