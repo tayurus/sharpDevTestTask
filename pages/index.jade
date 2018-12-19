@@ -1,0 +1,12 @@
+include ../blocks/product/product.jade
+doctype html
+html(lang="ru")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+
+        main
+          .container.bg-gray
+            +product('product1','2 props', 'Unlimited exchange')
+          
+        include ../blocks/footer/footer.jade

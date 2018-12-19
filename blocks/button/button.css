@@ -1,0 +1,42 @@
+.button{
+  padding: 14px 41px 10px 41px;
+  background-color: #f0f0f0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.59) 0%, rgba(255, 255, 255, 0.59) 100%);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+  color: #949494;
+  font-family: "Arial - Bold MT";
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  color: #fff;
+  background: #949494;
+}
+
+.button_small{
+  padding: 11px 24px 9px 25px;
+}
+
+.button_gray{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), inset 0 1px 2px #ffffff;
+  border: 1px solid #dbdbdb;
+  background-color: #494949;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  font-size: 12px;
+  border: 1px solid transparent;
+}
+
+.button_gray:hover{
+  color: #494949;
+  background: #ffffff;
+  border: 1px solid #494949;
+}
+
+.button_hint:hover + .hint{
+  display: block;
+}

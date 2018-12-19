@@ -1,0 +1,10 @@
+mixin product(imageName, props, title)
+  .product
+    img.product__img(src="img/#{imageName}.jpg", alt="#{imageName}")
+    .product__props= props
+    .product__title= title
+    .product__button-wrapper
+      button.button.button_small.button_gray.button_hint Order
+      .hint
+        .hint__title Popup header
+        .hint__text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.

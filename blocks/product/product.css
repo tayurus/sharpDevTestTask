@@ -1,0 +1,36 @@
+.product{
+  width: 122px;
+  text-align: center;
+}
+
+.product__img{
+  min-width: 111px;
+  min-height: 156px;
+  max-width: 111px;
+  max-height: 156px;
+  margin-bottom: 11px;
+}
+
+.product__props{
+  color: #525252;
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+}
+
+.product__title{
+  color: #121212;
+  font-family: Oswald;
+  font-size: 18px;
+  font-weight: 300;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+}
+
+.product__button-wrapper{
+    position: relative;
+}

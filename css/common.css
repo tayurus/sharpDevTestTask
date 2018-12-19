@@ -1,0 +1,25 @@
+@font-face {
+  src: url('fonts/arialBoldMT.ttf');
+  font-family: "Arial - Bold MT";
+}
+
+@font-face {
+  src: url('fonts/arialMT.ttf');
+  font-family: "Arial MT";
+}
+
+*,::after, ::before{
+    box-sizing: border-box;
+    font-family: "Arial MT";
+    transition: .3s;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-gray{
+  background-color: #eaeaea;
+}
