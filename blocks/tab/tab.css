@@ -6,10 +6,21 @@
 }
 
 .tab_signup {
+  position: relative;
   max-width: 338px;
   display: flex;
   flex-direction: column;
 }
+
+.tab_monitor{
+  position: relative;
+  max-width: 338px;
+  display: flex;
+  flex-direction: column;
+  height: 328px;
+}
+
+
 
 .tab__title {
   color: #222222;
