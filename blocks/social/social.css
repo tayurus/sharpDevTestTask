@@ -1,0 +1,14 @@
+.social {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.social:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width:992px), (max-device-width:992px) {
+  .social {
+    width: 80%;
+  }
+}

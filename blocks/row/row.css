@@ -11,6 +11,21 @@
   margin: 33px 10px 51px 10px;
 }
 
+.row_socials{
+  justify-content: space-between;
+  padding: 24px 10px;
+  max-width: 1096px;
+  margin: 0 auto;
+}
+
+.row_socials-inner{
+  max-width: 710px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
 @media (max-width:992px), (max-device-width:992px) {
   .row_products {
     justify-content: center;
@@ -18,5 +33,9 @@
 
   .row_products .product {
     margin: 15px 10px 35px 10px;
+  }
+
+  .row_socials-inner{
+    margin: 0 auto;
   }
 }

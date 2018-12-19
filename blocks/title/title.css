@@ -21,3 +21,14 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+.title_copyright{
+  color: #444444;
+  font-size: 32px;
+}
+
+@media (max-width:992px),(max-device-width:992px) {
+  .title_copyright{
+    display: none;
+  }
+}
