@@ -7,6 +7,19 @@ html(lang="ru")
 
         main
           .container.bg-gray
-            +product('product1','2 props', 'Unlimited exchange')
+            .row.row_products
+              +product('product1','2 props', 'Unlimited exchange')
+              +product('product2','1 prop', 'International exchange')
+              +product('product3','3 props all', 'Additional services')
+              +product('product4','5 props', 'Support')
+              +product('product5','2 props', 'Holiday works')
+              +product('product6','not in access', 'Postal delivery')
+              +product('product7','2 props', 'Document managment ')
+              +product('product8','1 prop', 'Promotions')
+            
+            .text-center
+              a.link.link_gray(href="#") More products...
           
         include ../blocks/footer/footer.jade
+      
+        //поиск

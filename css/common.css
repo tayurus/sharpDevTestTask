@@ -1,12 +1,14 @@
 @font-face {
+  src: url('fonts/ArialMT.woff');
+  font-family: "Arial MT";
+}
+
+
+@font-face {
   src: url('fonts/arialBoldMT.ttf');
   font-family: "Arial - Bold MT";
 }
 
-@font-face {
-  src: url('fonts/arialMT.ttf');
-  font-family: "Arial MT";
-}
 
 *,::after, ::before{
     box-sizing: border-box;
