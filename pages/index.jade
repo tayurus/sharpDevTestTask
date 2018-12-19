@@ -8,12 +8,12 @@ html(lang="ru")
         main
           section.container.bg-gray.pt-5.pb-4.px-0
             .row.mx-0.align-items-start
-              .col-lg-8.pr-0.pl-5
+              .col-lg-8.px-0.pl-lg-5
                 .row.justify-content-between.mx-0
                   h1.title.mb-4 ParrotWings Exchange
                   input.input.input_search.input_small(type='search' placeholder='Search...')
                 
-                h2.title_subtitle Products
+                h2.title_subtitle.ml-5.ml-lg-0 Products
                 
                 .row.row_products
                   +product('product1','2 props', 'Unlimited exchange')
@@ -25,9 +25,9 @@ html(lang="ru")
                   +product('product7','2 props', 'Document managment ')
                   +product('product8','1 prop', 'Promotions')
                 
-                .text-center
+                .text-center.d-none.d-lg-block
                   a.link.link_gray(href="#") More products...
-              .col-lg-4.pl-4
+              .col-lg-4.px-0.pl-lg-4
                 include ../blocks/tab/tabSignUp.jade
                 include ../blocks/tab/tabOnlineMonitor.jade
                   
