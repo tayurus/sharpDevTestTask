@@ -1,9 +1,13 @@
 .link{
-  font-family: "Arial MT";
   font-size: 16px;
   text-decoration: underline;
+  color: #444444;
 }
 
 .link_gray{
     color: #444444;
+}
+
+.link_small{
+  font-size: 11px;
 }

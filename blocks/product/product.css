@@ -9,6 +9,7 @@
   max-width: 111px;
   max-height: 156px;
   margin-bottom: 11px;
+  border: 1px solid #999999;
 }
 
 .product__props{
