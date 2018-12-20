@@ -11,9 +11,11 @@
 }
 
 .footer__text {
+  display: block;
   color: #bbbbbb;
   font-family: Oswald;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .footer__browsers-info {
