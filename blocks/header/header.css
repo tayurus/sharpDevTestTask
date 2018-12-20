@@ -1,11 +1,18 @@
 .header{
-  background-color: rgba(7,7,7,0.6);
+  background: #010101;
+}
+.header__bg{
+  max-width: 1050px;
+  padding-top: 100px;
+  margin: 0 auto;
+  background: url('img/header-bg.jpg') no-repeat center / cover;
 }
 
 .header__nav{
   max-width: 1050px;
   padding: 0px 10px;
   margin: 0 auto;
+  background-color: rgba(7,7,7,0.6);
 }
 
 
