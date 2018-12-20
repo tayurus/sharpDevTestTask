@@ -6,12 +6,13 @@ html(lang="ru")
         include ../blocks/header/header.jade
 
         main
-          section.container.bg-gray.pt-5.pb-4.px-0.px-sm-5
+          section.container.bg-gray.pt-5.pb-0.pb-sm-4.px-0.px-sm-5
             .row.mx-0.align-items-start
               .col-xl-9.col-lg-8.px-0.pl-lg-5
                 .row.justify-content-between.mx-0
-                  h1.title.mb-4 ParrotWings Exchange
-                  input.input.input_search.input_small(type='search' placeholder='Search...')
+                  h1.title.title_main.mb-4 ParrotWings Exchange
+                  form
+                    input.input.input_search.input_small.input_search-main(type='search' placeholder='Search...')
                 
                 h2.title_subtitle.ml-5.ml-lg-0 Products
                 
@@ -51,4 +52,4 @@ html(lang="ru")
         
         include ../blocks/footer/footer.jade
       
-        // бургер
+        // поведение для бургера и поиска

@@ -33,3 +33,9 @@
 .input::-ms-input-placeholder { /* Microsoft Edge */
   color: #a3a3a3;
 }
+
+@media (max-width:576px), (max-device-width:576px){
+  .input_search-main{
+    display: none;
+  }
+}

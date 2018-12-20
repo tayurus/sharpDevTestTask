@@ -27,8 +27,34 @@
   font-size: 32px;
 }
 
+.title_header{
+  display: none;
+}
+
 @media (max-width:992px),(max-device-width:992px) {
   .title_copyright{
     display: none;
   }
+}
+
+@media (max-width:576px),(max-device-width:576px) {
+  .title_main{
+    display: none;
+  }
+}
+
+@media (max-width:500px),(max-device-width:500px) {
+
+
+  .title_header{
+    position: absolute;
+    width: 100%;
+    padding: 7px 0px;
+    color: #fff;
+    background-color: rgba(7,7,7,0.6);
+    top: 53px;
+    font-size: 28px;
+    text-align: center;
+  }
+
 }
