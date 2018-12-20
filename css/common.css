@@ -3,29 +3,30 @@
   font-family: "Arial MT";
 }
 
-
 @font-face {
   src: url('fonts/arialBoldMT.ttf');
   font-family: "Arial - Bold MT";
 }
 
-
-*,::after, ::before{
-    box-sizing: border-box;
-    font-family: "Arial MT";
-    transition: .3s;
+*, ::after, ::before {
+  box-sizing: border-box;
+  font-family: "Arial MT";
+  transition: .3s;
 }
 
-
-body{
-    margin: 0px;
-    padding: 0px;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-.bg-gray{
+main {
+  background: #1a1a1a;
+}
+
+.bg-gray {
   background-color: #eaeaea;
 }
 
-.bg-black{
+.bg-black {
   background-color: #0d0d0d;
 }
